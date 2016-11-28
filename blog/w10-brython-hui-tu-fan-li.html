@@ -441,7 +441,7 @@ ctx.fillStyle = 'black'
 ctx.strokeStyle = "black"
 ctx.font = "30px Arial"
 ctx.fillText("A7", 100, 70)
-ctx.arc(140, 150, 9, 0, 2*math.pi, False)
+ctx.arc(50, 50, 9, 0, 2*math.pi, False)
 ctx.fill()
 ctx.stroke()
 ctx.closePath()
@@ -449,24 +449,7 @@ ctx.closePath()
 ctx.beginPath()
 ctx.fillStyle = 'white'
 ctx.font = "16px Arial"
-ctx.fillText("1", 136, 154)
-ctx.fill()
-ctx.stroke()
-ctx.closePath()
-
-# 2
-ctx.beginPath()
-ctx.fillStyle = 'black'
-ctx.strokeStyle = "black"
-ctx.arc(159, 150, 9, 0, 2*math.pi, False)
-ctx.fill()
-ctx.stroke()
-ctx.closePath()
-
-ctx.beginPath()
-ctx.fillStyle = 'white'
-ctx.font = "16px Arial"
-ctx.fillText("2", 154, 154)
+ctx.fillText("1", 45, 55)
 ctx.fill()
 ctx.stroke()
 ctx.closePath()
@@ -475,7 +458,7 @@ ctx.closePath()
 ctx.beginPath()
 ctx.fillStyle = 'black'
 ctx.strokeStyle = "black"
-ctx.arc(176, 150, 9, 0, 2*math.pi, False)
+ctx.arc(50, 80, 9, 0, 2*math.pi, False)
 ctx.fill()
 ctx.stroke()
 ctx.closePath()
@@ -483,7 +466,24 @@ ctx.closePath()
 ctx.beginPath()
 ctx.fillStyle = 'white'
 ctx.font = "16px Arial"
-ctx.fillText("3", 172, 154)
+ctx.fillText("3", 45, 85)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+
+# 4
+ctx.beginPath()
+ctx.fillStyle = 'black'
+ctx.strokeStyle = "black"
+ctx.arc(50, 110, 9, 0, 2*math.pi, False)
+ctx.fill()
+ctx.stroke()
+ctx.closePath()
+
+ctx.beginPath()
+ctx.fillStyle = 'white'
+ctx.font = "16px Arial"
+ctx.fillText("4", 45, 115)
 ctx.fill()
 ctx.stroke()
 ctx.closePath()
@@ -508,6 +508,7 @@ ctx.strokeStyle = "black"
 ctx.stroke()
 ctx.closePath()
 
+'''
 # 以下將 canvas 畫布內容轉為 img tag, 並且顯示在 container 物件
 img = canvas.toDataURL("image/png")
 # 利用 re.sub, 將原本要直接開圖檔的 data:image 標頭, 改為 data:application/octet-stream, 可直接下載存檔
@@ -515,6 +516,7 @@ img = canvas.toDataURL("image/png")
 img = re.sub("^data:image\/[^;]", "data:application/octet-stream", img)
 # 宣告 anchor markup attribute download, 可以指定下載儲存檔名
 container <= html.A("save image", href=img, download="guitar_chord.png")
+'''
 </script>
 
 <p>請注意, 開發 Brython 程式時, 建議使用 Firefox 開啟網誌, 因為反應速度較 Chrome 快速.</p>
@@ -525,6 +527,7 @@ container <= html.A("save image", href=img, download="guitar_chord.png")
 <canvas id="stage" width="600" height="600"></canvas>
 
 <script type="text/python3">
+'''
 from browser import document
 from browser.timer import request_animation_frame
 
@@ -567,6 +570,7 @@ def animate(i):
     draw()
 
 animate(0)
+'''
 </script>
             </div>
             <!-- /.entry-content -->
@@ -582,6 +586,11 @@ animate(0)
 
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="./w11-brython-hui-tu-fan-li.html">
+                            W11 Brython 繪圖範例
+                        </a>
+                    </li>
                     <li class="list-group-item">
                         <a href="./w10-brython-hui-tu-fan-li.html">
                             W10 Brython 繪圖範例
@@ -600,11 +609,6 @@ animate(0)
                     <li class="list-group-item">
                         <a href="./2016fall-cheng-shi-lian-xi-ti.html">
                             2016Fall 程式練習題
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue.html">
-                            2016Fall 機械設計主題教學
                         </a>
                     </li>
                 </ul>
