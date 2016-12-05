@@ -170,7 +170,7 @@
 <v t="leo.20161031141953.1"><vh>@edit 20161031.md</vh></v>
 <v t="leo.20161121140425.1"><vh>@edit 20161114.md</vh></v>
 <v t="leo.20161121151343.1"><vh>@edit 20161121.md</vh></v>
-<v t="leo.20161128140408.1"><vh>@edit 20161128.md</vh></v>
+<v t="leo.20161205160500.1"><vh>@edit 20161205.md</vh></v>
 </v>
 </v>
 </v>
@@ -181,6 +181,7 @@
 </v>
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
 <v t="yen.20161022111056.1"><vh>@button https server</vh></v>
+<v t="leo.20161128140408.1"><vh>@edit 20161128.md</vh></v>
 <v t="yen.20161022151749.1"><vh>產生 .key 與 .crt</vh></v>
 <v t="leo.20161121140419.2" a="E"><vh>Recovered Nodes</vh>
 <v t="leo.20161121140419.3"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
@@ -316,10 +317,10 @@ print("hello")
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [s40523224](http://s40523224.github.io/2016fallcp_hw/blog/)
+Created by [s40523217](http://s40523217.github.io/2016fallcp_hw/blog/)
 &lt;/small&gt;
 
-[s40523224](blog/index.html)
+[s40523217](blog/index.html)
 
 </t>
 <t tx="amd.20161004104641.1">&lt;section data-markdown&gt;
