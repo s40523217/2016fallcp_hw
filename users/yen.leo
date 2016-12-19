@@ -171,6 +171,7 @@
 <v t="leo.20161121140425.1"><vh>@edit 20161114.md</vh></v>
 <v t="leo.20161121151343.1"><vh>@edit 20161121.md</vh></v>
 <v t="leo.20161205160500.1"><vh>@edit 20161205.md</vh></v>
+<v t="leo.20161219150406.1"><vh>@edit 20161212.md</vh></v>
 </v>
 </v>
 </v>
@@ -187,6 +188,12 @@
 <v t="leo.20161121140419.3"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
 <v t="leo.20161121140419.4"><vh>old:封面投影片內容</vh></v>
 <v t="leo.20161121140419.5"><vh>new:封面投影片內容</vh></v>
+</v>
+</v>
+<v t="leo.20161219150354.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20161219150354.3"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
+<v t="leo.20161219150354.4"><vh>old:封面投影片內容</vh></v>
+<v t="leo.20161219150354.5"><vh>new:封面投影片內容</vh></v>
 </v>
 </v>
 </vnodes>
@@ -317,10 +324,10 @@ print("hello")
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [s40523217](http://s40523217.github.io/2016fallcp_hw/blog/)
+Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
 &lt;/small&gt;
 
-[s40523217](blog/index.html)
+[blog](blog/index.html)
 
 </t>
 <t tx="amd.20161004104641.1">&lt;section data-markdown&gt;
@@ -523,6 +530,46 @@ Created by [s40523224](http://s40523224.github.io/2016fallcp_hw/blog/)
 &lt;/small&gt;
 
 [s40523224](blog/index.html)
+
+</t>
+<t tx="leo.20161219150354.2"></t>
+<t tx="leo.20161219150354.3">(uncached) amd.20161004095719.2
+Diff...
+  # 2016Fall 計算機程式課程
+  
+  ### 虎科大機械設計工程系
+  
+  &lt;small&gt;
+- Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
++ Created by [s40523217](http://s40523217.github.io/2016fallcp_hw/blog/)
+  &lt;/small&gt;
+  
+- [blog](blog/index.html)
+?  ^^^^
++ [s40523217](blog/index.html)
+?  ^^^^^^^^^
+  
+</t>
+<t tx="leo.20161219150354.4"># 2016Fall 計算機程式課程
+
+### 虎科大機械設計工程系
+
+&lt;small&gt;
+Created by [s40523217](http://s40523217.github.io/2016fallcp_hw/blog/)
+&lt;/small&gt;
+
+[s40523217](blog/index.html)
+
+</t>
+<t tx="leo.20161219150354.5"># 2016Fall 計算機程式課程
+
+### 虎科大機械設計工程系
+
+&lt;small&gt;
+Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+&lt;/small&gt;
+
+[blog](blog/index.html)
 
 </t>
 <t tx="yen.20161011114704.1">&lt;section data-markdown&gt;
