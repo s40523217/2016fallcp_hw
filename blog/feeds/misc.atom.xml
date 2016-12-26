@@ -24,13 +24,31 @@ brython(1);
 from browser import alert
 from browser import document
 from browser import html
+import random
 #print("test")
 #alert("test")
 con1=document["con"]
-for i in range(5):
-    #con1&lt;="test"+"&lt;br /&gt;"
-    con1 &lt;="test"+html.BR()
-&lt;/script&gt;</summary><category term="使用導引"></category></entry><entry><title>W14 練習</title><link href="./w14-lian-xi.html" rel="alternate"></link><published>2016-12-12T12:00:00+08:00</published><updated>2016-12-12T12:00:00+08:00</updated><author><name>40523217</name></author><id>tag:,2016-12-12:./w14-lian-xi.html</id><summary type="html">&lt;table class="codehilitetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;            以下為第十四週開始的城市練習,要利用 &lt;span class="nt"&gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;http://mde.tw/2016fallcp/course/Python3Programs.txt&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;http://mde.tw/2016fallcp/course/Python3Programs.txt&lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; 要整理Brython 的用法.
+標準答案 = random.randint(1, 100)
+
+con1&lt;=str(標準答案)
+'''
+try:
+    for i in range(1):
+        #con1&lt;="test"+"&lt;br /&gt;"
+        yourInput=int(input("請輸入一個整數!"))
+        # con1 &lt;="test"+html.BR()
+        output = yourInput + 1
+        con1 &lt;="你輸入的整數加上1之後，為" + str(output)
+except:
+    con1 &lt;= "輸入整數啦 耖!"
+'''
+def b1(e):
+    alert("alert123")
+document["b1"].bind("click",b1)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="b1"&gt;玩猜數字遊戲&lt;/button&gt;&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>W14 練習</title><link href="./w14-lian-xi.html" rel="alternate"></link><published>2016-12-12T12:00:00+08:00</published><updated>2016-12-12T12:00:00+08:00</updated><author><name>40523217</name></author><id>tag:,2016-12-12:./w14-lian-xi.html</id><summary type="html">&lt;table class="codehilitetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;            以下為第十四週開始的城市練習,要利用 &lt;span class="nt"&gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;http://mde.tw/2016fallcp/course/Python3Programs.txt&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;http://mde.tw/2016fallcp/course/Python3Programs.txt&lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; 要整理Brython 的用法.
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
