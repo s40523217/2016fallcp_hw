@@ -332,7 +332,7 @@ print("hello")
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [s40523217](http://s40523217.github.io/kmolab/blog/)
+Created by [s40523217](http://s40523217.github.io/2016fallcp_hw/blog/)
 &lt;/small&gt;
 
 [40523217](blog/index.html)
