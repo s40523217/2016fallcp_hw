@@ -173,6 +173,7 @@
 <v t="leo.20161205160500.1"><vh>@edit 20161205.md</vh></v>
 <v t="leo.20161219150406.1"><vh>@edit 20161212.md</vh></v>
 <v t="leo.20161226134938.1"><vh>@edit 20161226.md</vh></v>
+<v t="leo.20170109133949.1"><vh>@edit 20170109.md</vh></v>
 </v>
 </v>
 </v>
@@ -195,6 +196,12 @@
 <v t="leo.20161219150354.3"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
 <v t="leo.20161219150354.4"><vh>old:封面投影片內容</vh></v>
 <v t="leo.20161219150354.5"><vh>new:封面投影片內容</vh></v>
+</v>
+</v>
+<v t="leo.20170109133827.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20170109133827.3"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
+<v t="leo.20170109133827.4"><vh>old:封面投影片內容</vh></v>
+<v t="leo.20170109133827.5"><vh>new:封面投影片內容</vh></v>
 </v>
 </v>
 </vnodes>
@@ -328,7 +335,7 @@ print("hello")
 Created by [s40523217](http://s40523217.github.io/kmolab/blog/)
 &lt;/small&gt;
 
-[s40523217](blog/index.html)
+[40523217](blog/index.html)
 
 </t>
 <t tx="amd.20161004104641.1">&lt;section data-markdown&gt;
@@ -563,6 +570,46 @@ Created by [s40523217](http://s40523217.github.io/2016fallcp_hw/blog/)
 
 </t>
 <t tx="leo.20161219150354.5"># 2016Fall 計算機程式課程
+
+### 虎科大機械設計工程系
+
+&lt;small&gt;
+Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+&lt;/small&gt;
+
+[blog](blog/index.html)
+
+</t>
+<t tx="leo.20170109133827.2"></t>
+<t tx="leo.20170109133827.3">(uncached) amd.20161004095719.2
+Diff...
+  # 2016Fall 計算機程式課程
+  
+  ### 虎科大機械設計工程系
+  
+  &lt;small&gt;
+- Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
++ Created by [s40523217](http://s40523217.github.io/kmolab/blog/)
+  &lt;/small&gt;
+  
+- [blog](blog/index.html)
+?  ^^^^
++ [s40523217](blog/index.html)
+?  ^^^^^^^^^
+  
+</t>
+<t tx="leo.20170109133827.4"># 2016Fall 計算機程式課程
+
+### 虎科大機械設計工程系
+
+&lt;small&gt;
+Created by [s40523217](http://s40523217.github.io/kmolab/blog/)
+&lt;/small&gt;
+
+[s40523217](blog/index.html)
+
+</t>
+<t tx="leo.20170109133827.5"># 2016Fall 計算機程式課程
 
 ### 虎科大機械設計工程系
 
