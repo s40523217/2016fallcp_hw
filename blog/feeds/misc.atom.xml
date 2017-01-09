@@ -17,6 +17,20 @@
 &lt;p&gt;如何列印提示或者設計較為體貼的程式流程?&lt;/p&gt;
 &lt;p&gt;有沒有可能讓電腦自行"玩"猜數字遊戲? http://wordpress-2015course.rhcloud.com/?p=4319 Contact GitHub API Training Shop Blog About © 2016 GitHub, Inc. Terms Privacy Security Status Help&lt;/p&gt;
 &lt;p&gt;程式範例&lt;/p&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
+&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
 &lt;div id="con"&gt;&lt;/div&gt;
 
 &lt;script type="text/python3"&gt;
@@ -24,42 +38,21 @@ from browser import alert
 from browser import document
 from browser import html
 import random
-#print("test")
-#alert("test")
-con1=document["con"]
-標準答案 = random.randint(1, 100)
 
-con1&lt;=str(標準答案)
-'''
-try:
-    for i in range(1):
-        #con1&lt;="test"+"&lt;br /&gt;"
-        yourInput=int(input("請輸入一個整數!"))
-        # con1 &lt;="test"+html.BR()
-        output = yourInput + 1
-        con1 &lt;="你輸入的整數加上1之後，為" + str(output)
-except:
-    con1 &lt;= "輸入整數啦 耖!"
-'''
 def b1(e):
-    alert("alert123")
-
-    #coding: utf-8
-# 猜數字遊戲
-import random
-
-標準答案 = random.randint(1, 100)
-你猜的數字 = int(input("請輸入您所猜的整數:"))
-猜測次數 = 1
-while 標準答案 != 你猜的數字:
-    if 標準答案 &lt; 你猜的數字:
-        print("太大了，再猜一次 :)加油")
-    else:
-        print("太小了，再猜一次 :)加油")
+    alert("確定")
+    標準答案 = random.randint(1, 100)
     你猜的數字 = int(input("請輸入您所猜的整數:"))
-    猜測次數 += 1
+    猜測次數 = 1
 
-print("猜對了！總共猜了", 猜測次數, "次")
+    while 標準答案 != 你猜的數字:
+        if 標準答案 &lt; 你猜的數字:
+            print("太大了，再猜一次 :)加油")
+        else:
+            print("太小了，再猜一次 :)加油")
+        你猜的數字 = int(input("請輸入您所猜的整數:"))
+        猜測次數 += 1
+    print("猜對了！總共猜了", 猜測次數, "次")
 document["b1"].bind("click",b1)
 
 &lt;/script&gt;
@@ -88,8 +81,7 @@ document["b1"].bind("click",b1)
 &lt;p&gt;input() 的用法, alert() 的用法&lt;/p&gt;
 &lt;p&gt;def 函式用法&lt;/p&gt;
 &lt;p&gt;document["id_name"] 如何使用&lt;/p&gt;
-&lt;p&gt;document[].bind() 如何讓滑鼠 click 執行 brython 函式?&lt;/p&gt;
-&lt;p&gt;&amp;lt;= 在 Brython 程式中的用法&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>W16</title><link href="./w16.html" rel="alternate"></link><published>2016-12-26T12:00:00+08:00</published><updated>2016-12-26T12:00:00+08:00</updated><author><name>40523217</name></author><id>tag:,2016-12-26:./w16.html</id><summary type="html">&lt;p&gt;w16&lt;/p&gt;
+&lt;p&gt;document[].bind() 如何讓滑鼠 click 執行 brython 函式?&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>W16</title><link href="./w16.html" rel="alternate"></link><published>2016-12-26T12:00:00+08:00</published><updated>2016-12-26T12:00:00+08:00</updated><author><name>40523217</name></author><id>tag:,2016-12-26:./w16.html</id><summary type="html">&lt;p&gt;w16&lt;/p&gt;
 
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
